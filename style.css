@@ -1,8 +1,18 @@
-.header {
-    height: 300px;
-    border-radius: 10px;
+* {
+    color: black;
+    font-size: medium;
+}
+
+.body {
     background-color: beige;
+}
+
+.header {
+    height: 200px;
+    border-radius: 10px;
+    background-color: antiquewhite;
     margin: 10px;
+    border: 1px solid black;
 }
 
 .profile-picture {
@@ -12,21 +22,23 @@
     margin-top: 20px;
     margin-left: 15px;
     border: 2px solid black;
-  }
-  
-  .background-image {
-      background: url(https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/5%20Best%20Coding%20Programs%20for%20Aspiring%20Programmers1650304687858345.jpg);
-  border-radius: 10px 10px 0 0;
-  height: 100px;
-margin-bottom: 25px;
+}
+
+.background-image {
+    background: url(https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/5%20Best%20Coding%20Programs%20for%20Aspiring%20Programmers1650304687858345.jpg);
+    border-radius: 10px 10px 0 0;
+    height: 100px;
+    margin-bottom: 25px;
 }
 
 .name {
     color: black;
     margin-left: 15px;
+    padding: auto;
 }
 
-.skills {
-    color: black;
-    font-size: small;
+.container-about {
+   border-radius: 10px;
+    border: 1px solid black;
+    margin: 30px;
 }
