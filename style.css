@@ -1,44 +1,87 @@
 * {
-    color: black;
-    font-size: medium;
+    margin: 0;
+    padding: 1;
+    color: beige;
 }
 
-.body {
-    background-color: beige;
+body {
+    background: grey;
 }
 
 .header {
-    height: 200px;
-    border-radius: 10px;
-    background-color: antiquewhite;
+    height: 300px;
+    border-radius: 15px;
+    background: rgb(27, 31, 35);
     margin: 10px;
-    border: 1px solid black;
-}
-
-.profile-picture {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 15px;
-    border: 2px solid black;
+    min-width: 200px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(27, 31, 35, 0.8);
 }
 
 .background-image {
-    background: url(https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/5%20Best%20Coding%20Programs%20for%20Aspiring%20Programmers1650304687858345.jpg);
-    border-radius: 10px 10px 0 0;
+    background: url("https://images.inc.com/uploaded_files/image/1024x576/getty_485008244_105123.jpg");
+    border-radius: 15px 15px 0 0;
     height: 100px;
+    width: 100%;
     margin-bottom: 25px;
+    background-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.profile-picture {
+    position: relative;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    border: 2px solid rgb(27, 31, 35);
+    z-index: 2;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+.skills-heading:hover {
+    text-decoration: underline;
+}
+.education-heading:hover {
+    text-decoration: underline;
+}
+.languages-heading:hover {
+    text-decoration: underline;
+}
+.experience-heading:hover {
+    text-decoration: underline;
+}
+.achivements-header:hover {
+    text-decoration: underline;
+}
+.info-heading:hover {
+    text-decoration: underline;
 }
 
 .name {
-    color: black;
-    margin-left: 15px;
-    padding: auto;
+    font-weight: bolder;
 }
 
-.container-about {
-   border-radius: 10px;
-    border: 1px solid black;
-    margin: 30px;
+.container {
+    border-radius: 15px;
+    background: rgb(27, 31, 35);
+    margin: 10px;
+    min-width: 200px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(27, 31, 35, 0.8);
+}
+
+
+@media all and (max-width: 600px) {
+    .header {
+        width: 65%;
+        font-size: x-small;
+    }
+
 }
