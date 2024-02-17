@@ -1,22 +1,35 @@
 * {
     margin: 0;
     padding: 1;
-    color: beige;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    text-wrap: wrap;
 }
 
-body {
-    background: grey;
+.body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom right, rgb(44, 175, 127, 0), rgb(44, 175, 127, 1)) no-repeat;
 }
 
 .header {
     height: 300px;
     border-radius: 15px;
-    background: rgb(27, 31, 35);
+    background: rgb(44, 175, 127, 1);
     margin: 10px;
     min-width: 200px;
     padding: 15px;
     position: relative;
     box-shadow: 5px 5px 5px rgba(27, 31, 35, 0.8);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .background-image {
@@ -45,21 +58,27 @@ body {
 .about:hover {
     text-decoration: underline;
 }
+
 .skills-heading:hover {
     text-decoration: underline;
 }
+
 .education-heading:hover {
     text-decoration: underline;
 }
+
 .languages-heading:hover {
     text-decoration: underline;
 }
+
 .experience-heading:hover {
     text-decoration: underline;
 }
+
 .achivements-header:hover {
     text-decoration: underline;
 }
+
 .info-heading:hover {
     text-decoration: underline;
 }
@@ -70,7 +89,7 @@ body {
 
 .container {
     border-radius: 15px;
-    background: rgb(27, 31, 35);
+    background: rgb(44, 175, 127, 1);
     margin: 10px;
     min-width: 200px;
     padding: 15px;
@@ -78,10 +97,3 @@ body {
 }
 
 
-@media all and (max-width: 600px) {
-    .header {
-        width: 65%;
-        font-size: x-small;
-    }
-
-}
